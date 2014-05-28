@@ -1,0 +1,26 @@
+.bloque{
+	-webkit-box-shadow: 1px 1px 4px;
+	-moz-box-shadow: 1px 1px 4px;
+	box-shadow: 1px 1px 4px;
+	margin: 0 auto;
+	width: 350px;
+}
+#container{
+	/*display:inline-block;
+	margin: 20px;*/
+	display: inline-block;
+	width: 90%;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+form{
+	width: 80%;
+	margin: 0 auto;
+	
+}
+form *:not(#bloque){
+	display: inline-table;	
+	width: 150px;
+	margin: 5px;
+}

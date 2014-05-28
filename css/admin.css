@@ -1,0 +1,54 @@
+.bar {
+    height: 18px;
+    background: green;
+}
+#lCorreo{
+	display: block;
+	height: 50px;
+	width: 100%;
+	border: solid 1px #1F6298;
+	overflow-y:scroll; 
+}
+#lCorreo p{
+	display: inline-block;
+	margin: 0px 3px 3px 0px;
+	padding: 2px;
+	border: solid 1px #0D283E;
+	border-radius: 4px;
+	background-color: #C5E4FC;
+}
+.titulo-inv{
+	display: block;
+	width: 99%;
+	margin: 0.5%;
+	background-color: #fff;
+	border-radius: 0px 0px 20px 20px;
+}
+#usuario{
+	display: inline-block;
+	padding: 2px 30px 2px 30px;	
+	margin: 0.5%;
+	background-color: rgba(157, 154, 218, 0.4);
+	border-radius: 0px 0px 0px 20px;
+	text-align: center;
+}
+#usuario:hover{
+	background-color: rgba(154, 200, 218, 0.39);
+}
+#usuario input{
+	border: none;
+	display: block;
+	background-color: rgba(0,0,0,0);
+	text-transform: uppercase; 
+	font-weight: bold;
+}
+.titulo-inv>a{
+	display: inline-block;
+	padding: 2px 20px 2px 20px;	
+	background-color: rgba(157, 154, 218, 0.4);
+	text-align: center;
+}
+.titulo-inv>a:hover{
+	background-color: rgba(154, 200, 218, 0.39);
+	cursor: pointer;
+}

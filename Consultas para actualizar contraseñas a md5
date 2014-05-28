@@ -1,0 +1,3 @@
+UPDATE tiposidentificaciones as t SET contraseña = md5((SELECT pri_nom FROM personas WHERE t.id_persona = personas.id)) WHERE t.contraseña <> '';
+
+SELECT pri_nom, contraseña FROM tiposidentificaciones LEFT JOIN personas on personas.id = tiposidentificaciones.id_persona ORDER BY pri_nom
